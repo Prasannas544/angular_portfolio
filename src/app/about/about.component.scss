@@ -1,0 +1,52 @@
+.about_cnt {
+    margin: 0px 20rem;
+}
+
+.parent {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left_img {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+        border-radius: 45px;
+    }
+}
+
+.right_text {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 74px;
+        line-height: 110%;
+        /* or 81px */
+
+
+        color: #3C2B4A;
+
+    }
+
+    p {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 146.5%;
+        /* or 29px */
+
+
+        color: #5F5F5F;
+
+    }
+}

@@ -1,0 +1,43 @@
+.banner {
+    margin: 0px 85px;
+    position: relative;
+    height: 354px;
+    background-size: cover;
+    background-image: url('../../assets/bg-work.png');
+    display: flex;
+    justify-content: center;
+
+    .trans-rect {
+        position: absolute;
+        top: 207px;
+        padding: 93px 236px;
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 74px;
+        line-height: 110%;
+        /* or 81px */
+
+        text-align: center;
+        background: rgba(255, 255, 255, 0.35);
+        border: 2px solid #FFFFFF;
+        box-shadow: 0px 52px 56px rgba(187, 231, 255, 0.25);
+        backdrop-filter: blur(42.5px);
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 30px;
+
+        color: #3C2B4A;
+    }
+
+    .circle {
+        top: 162px;
+        z-index: -1;
+        position: relative;
+        width: 412px;
+        height: 412px;
+        border-radius: 50%;
+        background-color: #E3F5FF;
+        ;
+    }
+}
