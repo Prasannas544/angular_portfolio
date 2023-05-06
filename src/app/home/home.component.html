@@ -1,11 +1,35 @@
 <div class="position-relative" style="height: 100vh; width: 100vw;">
   <app-navbar></app-navbar>
   <div class="banner">
+    <div class="avatar">
+      <div class="d-flex align-items-start justify-content-between"> <img src="../../assets/avatar.png" />
+        <p>&nbsp;&nbsp;Hi, I'm Poonam</p>
+      </div>
+    </div>
     <div class="trans-rect">3+ years experience of UI UX Designing</div>
+  </div>
+  <div class="d-flex justify-content-center">
+
     <div class="circle"></div>
   </div>
+  <div class="my_work">My Work</div>
+  <div class='row gap-4 pt-4'>
+    <div class="col-6">
+      <div class="d-flex align-items-end flex-column">
+        <div style="margin-bottom: 250px;" *ngFor="let item of items1">
+          <app-work-card [data]="item"></app-work-card>
+        </div>
+      </div>
+    </div>
+    <div class="col-5" style="padding-top: 200px;">
+      <div class="d-flex align-items-start flex-column">
+        <div style="margin-bottom: 250px;" *ngFor="let item of items2">
+          <app-work-card [data]="item"></app-work-card>
+        </div>
+      </div>
+    </div>
 
-  <div style="min-height: 1000px;"></div>
+  </div>
   <div>
     <div>
       <app-footer></app-footer>

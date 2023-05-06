@@ -5,7 +5,23 @@
     <div class="circle"></div>
   </div>
 
-  <div style="min-height: 1000px;"></div>
+  <div class='row gap-4 pt-4' style="margin-top: 200px;">
+    <div class="col-6">
+      <div class="d-flex align-items-end flex-column">
+        <div style="margin-bottom: 250px;" *ngFor="let item of items1">
+          <app-work-card [data]="item"></app-work-card>
+        </div>
+      </div>
+    </div>
+    <div class="col-5" style="padding-top: 200px;">
+      <div class="d-flex align-items-start flex-column">
+        <div style="margin-bottom: 250px;" *ngFor="let item of items2">
+          <app-work-card [data]="item"></app-work-card>
+        </div>
+      </div>
+    </div>
+
+  </div>
   <div>
     <app-footer></app-footer>
   </div>

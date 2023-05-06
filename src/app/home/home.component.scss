@@ -7,6 +7,29 @@
     display: flex;
     justify-content: center;
 
+
+    .avatar {
+        margin-top: 75px;
+        align-content: center;
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 110%;
+
+        /* identical to box height, or 55px */
+
+        text-align: center;
+
+        color: #3C2B4A;
+
+        img {
+            width: 53px;
+            height: 53px;
+            border-radius: 196.5px;
+        }
+    }
+
     .trans-rect {
         width: 70%;
         position: absolute;
@@ -36,14 +59,29 @@
         color: #3C2B4A;
     }
 
-    .circle {
-        top: 513px;
-        z-index: -1;
-        position: relative;
-        width: 412px;
-        height: 412px;
-        border-radius: 50%;
-        background-color: #E3F5FF;
-        ;
-    }
+}
+
+.circle {
+    margin-top: -25px;
+    z-index: -1;
+    position: relative;
+    width: 412px;
+    height: 412px;
+    border-radius: 50%;
+    background-color: #E3F5FF;
+    ;
+}
+
+.my_work {
+    padding-top: 100px;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    /* identical to box height, or 55px */
+
+    text-align: center;
+
+    color: #3C2B4A;
 }

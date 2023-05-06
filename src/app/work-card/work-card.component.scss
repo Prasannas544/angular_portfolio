@@ -1,0 +1,43 @@
+.card_wrapper {
+    padding: 1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+    .card {
+        border: none;
+        height: 454px;
+        width: 630px;
+        background-color: #DAE7FF;
+        border-radius: 34px;
+
+        p {
+            padding-top: 60px;
+            padding-left: 90px;
+            padding-right: 90px;
+            text-align: center;
+            font-family: 'Cormorant Infant';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 110%;
+        }
+
+    }
+
+    .image {
+        border-radius: 31px;
+        top: 197px;
+        position: absolute;
+        width: 450px;
+        height: 412px;
+
+        img {
+            border-radius: 31px;
+            width: 450px;
+            height: 412px;
+            object-fit: cover;
+        }
+    }
+}

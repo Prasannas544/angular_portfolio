@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './work/work.component';
 import { AboutComponent } from './about/about.component';
+import { WorkCardComponent } from './work-card/work-card.component';
 
 
 
@@ -25,7 +26,8 @@ const routes: Routes = [
     FooterComponent,
     HomeComponent,
     WorkComponent,
-    AboutComponent
+    AboutComponent,
+    WorkCardComponent
   ],
   imports: [
     BrowserModule,
