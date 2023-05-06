@@ -1,7 +1,128 @@
 .footer_wrapper {
+    background: #EEF2FD;
+    display: flex;
     position: absolute;
     bottom: 0;
-    width: 100vw;
+    min-width: 100vw;
+    justify-content: space-between;
+    padding: 180px 300px;
+
 }
 
-.footer_wrapper p {}
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+    h5 {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 146.5%;
+        /* or 29px */
+        color: #3C2B4A;
+    }
+
+    p {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        /* or 44px */
+
+
+        color: #3C2B4A;
+    }
+
+    .header h2 {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 110%;
+        /* identical to box height, or 83px */
+        color: #3C2B4A;
+    }
+
+    .header p {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 29px;
+        color: #3C2B4A;
+    }
+
+
+    .sm_container {
+        display: flex;
+        width: 96px;
+        justify-content: space-between;
+    }
+}
+
+.right {
+    width: 50%;
+
+    display: flex;
+    // padding: 20px;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 677px;
+        // min-height: 654px;
+        background: rgba(255, 255, 255, 0.01);
+        mix-blend-mode: normal;
+        padding: 75px 70px;
+        /* Note: backdrop-filter has minimal browser support */
+        // border-radius: 46px;
+        background: rgba(255, 255, 255, 0.01);
+        mix-blend-mode: normal;
+        backdrop-filter: blur(23px);
+
+        border-radius: 46px;
+        box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.1);
+
+
+        input,
+        textarea {
+            border: none;
+
+            background: #527CEB;
+            border-radius: 200px;
+            padding: 20px;
+            width: 100%;
+
+            &::placeholder {
+                color: #fff;
+                font-weight: 400;
+                font-size: 18px;
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+
+        button {
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            padding: 28px 81px;
+            background: #527CEB;
+            border-radius: 200px;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        textarea {
+            border-radius: 30px !important;
+
+        }
+    }
+}
