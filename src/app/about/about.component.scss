@@ -31,8 +31,6 @@
         font-size: 74px;
         line-height: 110%;
         /* or 81px */
-
-
         color: #3C2B4A;
 
     }
@@ -44,9 +42,112 @@
         font-size: 20px;
         line-height: 146.5%;
         /* or 29px */
-
-
         color: #5F5F5F;
 
+    }
+}
+
+.info {
+    margin: 118px 0px;
+
+    .left_info {
+        padding-left: 110px;
+        padding-top: 75px;
+        width: 625px;
+        height: 894px;
+        background: #F9F9F9;
+        border-radius: 30px;
+
+        h1 {
+            padding-bottom: 50px;
+            font-family: 'Cormorant Infant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 110%;
+            /* or 44px */
+
+
+            color: #3C2B4A;
+        }
+
+        h2 {
+            padding-bottom: 34px;
+            font-family: 'Cormorant Infant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 110%;
+            /* identical to box height, or 33px */
+
+
+            color: #3C2B4A;
+        }
+
+        h5 {
+            font-family: 'Cormorant Infant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 128.5%;
+            /* or 32px */
+
+
+            color: #3C2B4A;
+        }
+
+        p {
+            padding-top: 14px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 146.5%;
+            /* or 29px */
+
+
+            color: #5F5F5F;
+        }
+    }
+
+    .right_info {
+        padding-left: 110px;
+        padding-top: 75px;
+        width: 625px;
+        height: 894px;
+        background: #F9F9F9;
+        border-radius: 30px;
+
+        h1 {
+            padding-bottom: 50px;
+            font-family: 'Cormorant Infant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 110%;
+            /* or 44px */
+
+
+            color: #3C2B4A;
+        }
+
+        h5 {
+            font-family: 'Cormorant Infant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 128.5%;
+            /* or 32px */
+
+
+            color: #3C2B4A;
+        }
+    }
+
+    .bullet {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #527CEB;
     }
 }
