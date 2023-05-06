@@ -1,8 +1,6 @@
 .footer_wrapper {
-    background: #EEF2FD;
+    background-color: #EEF2FD !important;
     display: flex;
-    position: absolute;
-    bottom: 0;
     min-width: 100vw;
     justify-content: space-between;
     padding: 180px 300px;
@@ -14,6 +12,7 @@
     display: flex;
     flex-direction: column;
     padding: 16px;
+    background-color: #EEF2FD;
 
     h5 {
         font-family: 'Lexend Deca';
@@ -92,7 +91,11 @@
         input,
         textarea {
             border: none;
-
+            color: #fff;
+            font-weight: 400;
+            font-size: 18px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
             background: #527CEB;
             border-radius: 200px;
             padding: 20px;
