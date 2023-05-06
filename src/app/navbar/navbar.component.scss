@@ -1,0 +1,26 @@
+.navbar_container {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .nav_left {
+        span {
+            font: 700 clamp(1rem, 2.5vw, 1.5rem)/normal Quicksand;
+            color: #3C2B4A;
+        }
+    }
+
+    nav {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        a {
+            font: 600 clamp(0.8rem, 2.5vw, 1.2rem)/normal Quicksand;
+            color: #2F2F2F;
+            text-decoration: none;
+        }
+    }
+}
